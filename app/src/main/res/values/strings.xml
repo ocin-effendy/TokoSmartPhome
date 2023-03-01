@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">Toko SmartPhone</string>
+
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
+    <string name="buy_button">Beli</string>
+    <string name="specification">Spesifikasi</string>
+    <string name="screen">Screen</string>
+    <string name="ram">Ram</string>
+    <string name="camera">Camera</string>
+    <string name="weight">Weight</string>
+    <string name="memory">Memory</string>
+    <string name="color">Color</string>
+    <string name="menu_profile">profile</string>
+    <string name="name_profile">Nico Ardia Effendy</string>
+    <string name="email">nikoardia134@gmail.com</string>
+    <string name="hero_image_name">hero image</string>
+
+
+    <string-array name="name_product">
+        <item>Galaxy S21 Ultra</item>
+        <item>IPhone 14</item>
+        <item>Google Pixel 4 XL</item>
+        <item>ASUS ROG Phone 6D</item>
+        <item>Black Shark 5 Pro</item>
+        <item>Nubia Red Magic 8 Pro</item>
+        <item>Lenovo Legion 2 Pro</item>
+        <item>Samsung Galaxy Z Flip4</item>
+        <item>OPPO Reno8 4G</item>
+        <item>Xiaomi Redmi Note 9</item>
+        <item>Infinix Smart 6 Plus</item>
+    </string-array>
+
+    <string-array name="desc_product">
+        <item>Samsung Galaxy S21 Ultra 5G RAM 16GB ROM 512GB merupakan HP dengan layar 6.8" dan tingkat densitas piksel sebesar 515ppi. Ia dilengkapi dengan kamera belakang 108 + 10 + 10 + 12MP dan kamera depan 40MP. Memiliki berat sebesar 227g, HP ini hadir dengan kapasitas baterai 5000mAh. Samsung Galaxy S21 Ultra 5G dirilis pada: 2021.</item>
+        <item>Apple iPhone 14 RAM 6GB ROM 128GB merupakan HP dengan layar 6.1" dan tingkat densitas piksel sebesar 460ppi. Ia dilengkapi dengan kamera belakang 12 + 12MP dan kamera depan 12MP. Memiliki berat sebesar 172g, HP ini hadir dengan kapasitas baterai 3279mAh. Apple iPhone 14 dirilis pada: 2022.</item>
+        <item>Google Pixel 4 XL merupakan HP dengan layar 6.3" dan tingkat densitas piksel sebesar 537ppi. Ia dilengkapi dengan kamera belakang 12.2 + 16MP dan kamera depan 8MP. HP ini juga hadir dengan kapasitas baterai 3700mAh. Google Pixel 4 XL dirilis pada: 2019.</item>
+        <item>ASUS ROG Phone 6D RAM 12GB ROM 256GB merupakan HP Gaming dengan layar 6.78". Ia dilengkapi dengan kamera utama 50 + 13 + 5MP dan kamera depan 12MP. Memiliki berat sebesar 198g, HP ini hadir dengan kapasitas baterai 6000mAh. ASUS ROG Phone 6D dirilis pada: 2022.</item>
+        <item>Black Shark 5 Pro merupakan HP dengan layar 6.67" dan tingkat densitas piksel sebesar 395ppi. Ia dilengkapi dengan kamera belakang 108 + 13 + 5MP dan kamera depan 16MP. HP ini juga hadir dengan kapasitas baterai 4650mAh. Black Shark 5 Pro dirilis pada: 2022.</item>
+        <item>Nubia Red Magic 8 Pro merupakan HP dengan layar 6.8" dan tingkat densitas piksel sebesar 400ppi. Ia dilengkapi dengan kamera belakang 50 + 8 + 2MP dan kamera depan 16MP. HP ini juga hadir dengan kapasitas baterai 6000mAh. nubia Red Magic 8 Pro dirilis pada: 2022.</item>
+        <item>Lenovo Legion 2 Pro merupakan HP dengan layar 6.92" dan tingkat densitas piksel sebesar 388ppi. Ia dilengkapi dengan kamera belakang 64 + 16MP dan kamera depan 44MP. HP ini juga hadir dengan kapasitas baterai 5500mAh. Lenovo Legion 2 Pro dirilis pada: 2021.</item>
+        <item>Samsung Galaxy Z Flip4 merupakan HP dengan layar 6.7" dan tingkat densitas piksel sebesar 426ppi. Ia dilengkapi dengan kamera belakang 12 + 12MP dan kamera depan 10MP. HP ini juga hadir dengan kapasitas baterai 3700mAh. Samsung Galaxy Z Flip4 dirilis pada: 2022.</item>
+        <item>OPPO Reno8 4G merupakan HP dengan layar 6.43" dan tingkat densitas piksel sebesar 409ppi. Ia dilengkapi dengan kamera belakang 64 + 2 + 2MP dan kamera depan 32MP. HP ini juga hadir dengan kapasitas baterai 4500mAh. OPPO Reno8 4G dirilis pada: 2022.</item>
+        <item>Xiaomi Redmi Note 9 merupakan HP dengan layar 6.53" dan tingkat densitas piksel sebesar 395ppi. Ia dilengkapi dengan kamera belakang 48 + 8 + 2 + 2MP dan kamera depan 13MP. HP ini juga hadir dengan kapasitas baterai 5020mAh. Xiaomi Redmi Note 9 dirilis pada: 2020.</item>
+        <item>Infinix Smart 6 Plus merupakan HP dengan layar 6.82" dan tingkat densitas piksel sebesar 257ppi. Ia dilengkapi dengan kamera belakang 8 + 0.3MP dan kamera depan 5MP. HP ini juga hadir dengan kapasitas baterai 5000mAh. Infinix Smart 6 Plus dirilis pada: 2022.</item>
+    </string-array>
+
+    <string-array name="price_product">
+        <item>Rp 12.990.000</item>
+        <item>Rp 14.099.000</item>
+        <item>Rp 13.700.000</item>
+        <item>Rp 15.000.000</item>
+        <item>Rp 13.500.000</item>
+        <item>Rp 13.700.000</item>
+        <item>Rp 13.590.000</item>
+        <item>Rp 9.500.000</item>
+        <item>Rp 1.799.000</item>
+        <item>Rp 1.400.000</item>
+        <item>Rp 1.250.000</item>
+
+    </string-array>
+
+    <string-array name="screen_product">
+        <item>6.8"</item>
+        <item>6.1"</item>
+        <item>6.3"</item>
+        <item>6.78"</item>
+        <item>6.67"</item>
+        <item>6.8"</item>
+        <item>6.92"</item>
+        <item>6.7"</item>
+        <item>6.43"</item>
+        <item>6.53"</item>
+        <item>6.82"</item>
+    </string-array>
+
+    <string-array name="camera_product">
+        <item>108 + 10 + 10 + 12MP</item>
+        <item>12 + 12MP</item>
+        <item>12.2 + 16MP</item>
+        <item>50 + 13 + 5MP</item>
+        <item>108 + 13 + 5MP</item>
+        <item>50 + 8 + 2MP</item>
+        <item>64 + 16MP</item>
+        <item>12 + 12MP</item>
+        <item>64 + 2 + 2MP</item>
+        <item>48 + 8 + 2 + 2MP</item>
+        <item>8 + 0.3MP</item>
+    </string-array>
+
+    <string-array name="ram_product">
+        <item>16GB</item>
+        <item>6GB</item>
+        <item>6GB</item>
+        <item>12GB</item>
+        <item>12GB</item>
+        <item>12GB</item>
+        <item>16GB</item>
+        <item>8GB</item>
+        <item>8GB</item>
+        <item>6GB</item>
+        <item>4GB</item>
+    </string-array>
+
+    <string-array name="weight_product">
+        <item>227g</item>
+        <item>172g</item>
+        <item>193g</item>
+        <item>198g</item>
+        <item>220g</item>
+        <item>228g</item>
+        <item>259g</item>
+        <item>187g</item>
+        <item>190g</item>
+        <item>199g</item>
+        <item>202g</item>
+    </string-array>
+
+    <string-array name="memory_product">
+        <item>512GB</item>
+        <item>128GB</item>
+        <item>512GB</item>
+        <item>256GB</item>
+        <item>256GB</item>
+        <item>128GB</item>
+        <item>512GB</item>
+        <item>512GB</item>
+        <item>256GB</item>
+        <item>128GB</item>
+        <item>64GB</item>
+    </string-array>
+
+    <string-array name="color_product">
+        <item>Phantom Black</item>
+        <item>Blue</item>
+        <item>Just Black</item>
+        <item>Grey</item>
+        <item>Nebula White</item>
+        <item>Black</item>
+        <item>Titanium White</item>
+        <item>Bora Purple</item>
+        <item>Dawnlight Gold</item>
+        <item>Forest Green</item>
+        <item>Nano Black</item>
+    </string-array>
+
+    <string-array name="img_product">
+        <item>@drawable/s21</item>
+        <item>@drawable/iphone</item>
+        <item>@drawable/google</item>
+        <item>@drawable/rog</item>
+        <item>@drawable/shark</item>
+        <item>@drawable/nubia</item>
+        <item>@drawable/lenovo</item>
+        <item>@drawable/samsung</item>
+        <item>@drawable/oppo</item>
+        <item>@drawable/xiomi</item>
+        <item>@drawable/infinix</item>
+    </string-array>
+
+</resources>
