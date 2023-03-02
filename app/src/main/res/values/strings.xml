@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">Toko SmartPhone</string>
+    <string name="app_name">Toko Smart Phone</string>
 
     <string name="product_name">Product Name</string>
     <string name="product_price">Product Price</string>
-    <string name="buy_button">Beli</string>
+    <string name="buy_button">Share</string>
     <string name="specification">Spesifikasi</string>
     <string name="screen">Screen</string>
     <string name="ram">Ram</string>

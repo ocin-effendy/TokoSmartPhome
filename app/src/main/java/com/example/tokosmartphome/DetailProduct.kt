@@ -1,7 +1,10 @@
 package com.example.tokosmartphome
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -17,6 +20,7 @@ class DetailProduct : AppCompatActivity() {
     private lateinit var weight: TextView
     private lateinit var memory: TextView
     private lateinit var color: TextView
+    private lateinit var button: Button
 
     companion object {
         const val DATA_PRODUCT = "DATA_PRODUCT"
@@ -28,6 +32,7 @@ class DetailProduct : AppCompatActivity() {
         supportActionBar?.title = ""
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
+        button = findViewById(R.id.buy_button)
         imageHero = findViewById(R.id.heroImage)
         name = findViewById(R.id.name)
         price = findViewById(R.id.price)
@@ -38,6 +43,8 @@ class DetailProduct : AppCompatActivity() {
         weight = findViewById(R.id.weight)
         memory = findViewById(R.id.memory)
         color = findViewById(R.id.color)
+
+
 
         val product = if(Build.VERSION.SDK_INT >= 33){
             intent.getParcelableExtra(DATA_PRODUCT, Product::class.java)
@@ -57,6 +64,14 @@ class DetailProduct : AppCompatActivity() {
             weight.text = product.weight
             memory.text = product.memory
             color.text = product.color
+        }
+
+        button.setOnClickListener(){
+            val intent= Intent()
+            intent.action=Intent.ACTION_SEND
+            intent.putExtra(Intent.EXTRA_TEXT,"Check this ${name.text} !!!")
+            intent.type="text/plain"
+            startActivity(Intent.createChooser(intent,"Smart Phone"))
         }
 
     }
